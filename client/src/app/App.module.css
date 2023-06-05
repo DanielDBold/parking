@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Copperplate, Papyrus, fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.appLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.logo {
+  width: 400px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.connectedToServer {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+.connectedText {
+  margin-right: 10px;
+}
+
+.noFreePlaces {
+  background-color: #fe9494;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parkingSpots {
+  text-align: center;
+  font-size: 32px;
+}
